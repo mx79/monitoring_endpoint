@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories (usually not checked in)
+vendor/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Executables
+*.cmd
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+.vscode/
+*.sublime-workspace
+
+# Go build cache, which is used to store cached compiled binaries
+bin/
+pkg/
+
+# Go workspace mode directories
+go.work
+go.work.sum
+
+tmp/
